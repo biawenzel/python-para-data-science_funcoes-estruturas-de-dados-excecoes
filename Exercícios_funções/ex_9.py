@@ -10,7 +10,7 @@ preco_gasolina = 5
 gastos_extras = [200, 400, 250, 300] #Salvador, Fortaleza, Natal e Aracaju
 distancias = [850, 800, 300, 550] #Salvador, Fortaleza, Natal e Aracaju
 
-cidade = input('Digite o destino da viagem: ')
+cidade = input('Digite o destino da viagem (Salvador, Fortaleza, Natal ou Aracaju): ')
 dias = int(input(f'Quantos dias deseja ficar em {cidade}? '))
 
 def gasto_hotel(dias):
